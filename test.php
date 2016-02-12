@@ -13,7 +13,6 @@ $address = $person->newTag("address");
 $street = $address->newTag("street", "123 NW 45th street");
 $street->addAttribute("appartment", "205");
 $street->newTag("type", "home");
-var_dump($street);
 $address->newTag("city", "Gaithersburg");
 $address->newTag("zip", "21234");
 $address->newTag("state", "MD");
