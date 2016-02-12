@@ -1,5 +1,6 @@
 # MyXMLLibrary
 adam@localhost ~/Documents/newProject/MyXMLLibrary $ php test.php 
+<pre>
 <People>
         <Person id="2323" DOB="1/1/1901">
                 <FirstName>John</FirstName>
@@ -14,4 +15,5 @@ adam@localhost ~/Documents/newProject/MyXMLLibrary $ php test.php
                 </address>
         </Person>
 </People>
+</pre>
 adam@localhost ~/Documents/newProject/MyXMLLibrary $ 
