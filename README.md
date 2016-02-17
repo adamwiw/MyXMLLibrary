@@ -35,7 +35,7 @@ Example output
 </pre>
 test.php
 <pre>
-<?php
+&lt;?php
 include "MyXMLObject.php";
 $x = new MyXMLObject();
 $root = $x->getRoot();
