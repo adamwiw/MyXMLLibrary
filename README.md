@@ -20,18 +20,18 @@ x.Print();
 </pre>
 Example output
 <pre>
-<people>
-    <person id="2323" DOB="1/1/1901">
-        <firstname>John</firstname>
-        <lastname>Smith</lastname>
-        <address>
-            <street>123 NW 45th street</street>
-            <city>Gaithersuburg</city>
-            <zip>21234</zip>
-            <state>MD</state>
-        </address>
-    </person>
-</people>
+&lt;people&gt;
+    &lt;person id="2323" DOB="1/1/1901"&gt;
+        &lt;firstname&gt;John&lt;/firstname&gt;
+        &lt;lastname&gt;Smith&lt;/lastname&gt;
+        &lt;address&gt;
+            &lt;street&gt;123 NW 45th street&lt;/street&gt;
+            &lt;city&gt;Gaithersuburg&lt;/city&gt;
+            &lt;zip&gt;21234&lt;/zip&gt;
+            &lt;state&gt;MD&lt;/state&gt;
+        &lt;/address&gt;
+    &lt;/person&gt;
+&lt;/people&gt;
 </pre>
 test.php
 <pre>
@@ -53,23 +53,23 @@ $address->newTag("city", "Gaithersburg");
 $address->newTag("zip", "21234");
 $address->newTag("state", "MD");
 $x->printTags();
-?>
+?&gt;
 </pre>
 adam@localhost ~/Documents/newProject/MyXMLLibrary $ php test.php
 <pre>
-<People>
-        <Person id="2323" DOB="1/1/1901">
-                <FirstName>John</FirstName>
-                <LastName>Smith</LastName>
-                <address>
-                        <street appartment="205">123 NW 45th street
-                                <type>home</type>
-                        </street>
-                        <city>Gaithersburg</city>
-                        <zip>21234</zip>
-                        <state>MD</state>
-                </address>
-        </Person>
-</People>
+&lt;People&gt;
+        &lt;Person id="2323" DOB="1/1/1901"&gt;
+                &lt;FirstName&gt;John&lt;/FirstName&gt;
+                &lt;LastName&gt;Smith&lt;/LastName&gt;
+                &lt;address&gt;
+                        &lt;street appartment="205"&gt;123 NW 45th street
+                                &lt;type&gt;home&lt;/type&gt;
+                        &lt;/street&gt;
+                        &lt;city&gt;Gaithersburg&lt;/city&gt;
+                        &lt;zip&gt;21234&lt;/zip&gt;
+                        &lt;state&gt;MD&lt;/state&gt;
+                &lt;/address&gt;
+        &lt;/Person&gt;
+&lt;/People&gt;
 </pre>
 adam@localhost ~/Documents/newProject/MyXMLLibrary $ 
