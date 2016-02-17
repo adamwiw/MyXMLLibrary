@@ -2,7 +2,7 @@
 Write a simple program to store some simple XML - basic tags and attributes. Don't worry about the encoding or XML features except for the tags and tag attributes. You cannot use any existing XML libraries or APIs. Your code should compile and run and demonstrate the abilities of the your XML classes.
 
 Example code in C#
-<code>
+<pre>
 XMLObject x = new XMLObject();
 XMLTag root = x.GetRoot();
 root.SetName("People");
@@ -17,7 +17,7 @@ address.NewTag("city", "Gaithersburg");
 address.NewTag("zip", "21234");
 address.NewTag("state", "MD");
 x.Print();
-</code>
+</pre>
 Example output
 <pre>
 <people>
